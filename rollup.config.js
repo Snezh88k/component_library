@@ -30,8 +30,8 @@ export default [
         ],
     },
     {
-        input: "dist/esm/types/index.d.ts",
-        output: [{ file: "dist/index.d.ts", format: "esm" }],
+        input: "dist/est/types/index.d.ts",
+        output: [{ file: "dist/index.d.ts", format: "est" }],
         plugins: [dts.default()],
     },
 ];
