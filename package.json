@@ -1,5 +1,6 @@
 {
   "name": "@snezh88k/component_library",
+  "version": "0.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/snezh88k"
   },
