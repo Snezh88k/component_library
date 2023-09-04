@@ -1,5 +1,8 @@
 {
-  "name": "component-library",
+  "name": "@snezh88k/component_library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/snezh88k"
+  },
   "description": "",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
