@@ -1,7 +1,18 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-interface ButtonProps {}
+import "./Button.css";
 
-export const Button = function (props: ButtonProps) {
-  return <div>Кнопка из библиотеки</div>;
+interface ButtonProps {
+  title: string;
+  onClick: () => void;
+}
+
+const StyledButton = ({ title, onClick }: ButtonProps) => (
+  <button onClick={onClick}>{title}</button>
+);
+StyledButton.propTypes = {
+  title: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
+export default StyledButton;
