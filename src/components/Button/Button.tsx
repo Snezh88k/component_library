@@ -1,7 +1,7 @@
 import React from "react";
 
-export interface ButtonProps {}
+interface ButtonProps {}
 
-export default function Button(props: ButtonProps) {
+export const Button = function (props: ButtonProps) {
   return <div>Кнопка из библиотеки</div>;
-}
+};
